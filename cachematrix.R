@@ -2,7 +2,7 @@
 ## functions do
 
 ## Write a short comment describing this function
-#this function manAges the caches
+#this function manages the caches
 
 makeCacheMatrix <- function(x = matrix()) {
 ##
