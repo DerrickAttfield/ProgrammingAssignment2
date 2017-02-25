@@ -5,9 +5,8 @@
 #this function manages the caches
 
 makeCacheMatrix <- function(x = matrix()) {
-##
-      inv <- NULL
-      #message(inv)
+
+        inv <- NULL
       set <- function(im) {
         x <<- im
         message('in set function')
@@ -20,7 +19,6 @@ makeCacheMatrix <- function(x = matrix()) {
            setinv = setinv,
            getinv = getinv)
 }
-
 
 ## Write a short comment describing this function
 #cacheSolve checks to see if the argument matrix is identical to the previous
